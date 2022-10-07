@@ -1,0 +1,230 @@
+body{
+	margin: 0;
+	font-family: courier;
+}
+
+nav{
+	background-color:   #5c5c3d;
+	/*margin-bottom: 50px;*/
+}
+nav .navbar-brand img{
+	width: 100px;
+	height: 70px;
+}
+nav ul li{
+	padding: 5px;
+}
+nav .navbar-nav li a{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+nav ul li.icon{
+	padding-top:25px;
+}
+nav div.sub a{
+	font-family: courier;
+	font-size: 20px;
+	color: #5c5c3d;
+}
+div.con1{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-family: courier;
+	background-color: #5c5c3d;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	box-shadow: 10px 10px;
+}
+div.first{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 10px;
+	padding-top: 20px;
+}
+div.one{
+	position: sticky;
+	width: 100px;
+	height: 100px;
+	padding-top: 20px;
+	border-radius: 50%;
+	background-color: #5c5c3d;
+}
+div.one h1{
+	color: white;
+	font-weight: bolder;
+}
+div.first h3.name{
+	font-weight: bolder;
+}
+li a{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+li a:hover{
+	color: black;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block h4{
+	font-weight: bolder;
+}
+div.order{
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 100%;
+	height: 120px;
+	border: 1px solid black;
+	background-color: white;
+}
+div.order h1{
+	font-weight: bolder;
+	fo
+}
+div.you{
+	margin-top: 70px;
+	padding-left: 20px;
+	padding-top: 50px;
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
+	background-color: white;
+}
+div.you h4{
+	font-weight: bolder;
+}
+div.you button.read{
+	width: 220px;
+	height: 60px;
+	margin-top: 20PX;
+	color: #5c5c3d;
+	font-size:20px ;
+	font-weight: bold;
+	background-color: white;
+	border: 2px solid #5c5c3d ;
+}
+
+div.you button.read:hover{
+ background-color: #5c5c3d;
+ color: white;
+}
+div.sec{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding:20px ;
+}
+div.sec label{
+	font-weight: bold;
+}
+div.sec h1{
+	font-weight: bolder;
+}
+div.third{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding:20px ;
+}
+div.third h1{
+	font-weight: bolder;
+}
+div.fourth{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding:20px ;
+}
+div.fourth h1{
+	font-weight: bolder;
+}
+div.fourth button.read{
+	width: 280px;
+	height: 50px;
+	margin-top: 20PX;
+	color: #5c5c3d;
+	font-size:20px ;
+	font-weight: bold;
+	background-color: white;
+	border: 2px solid #5c5c3d ;
+}
+
+div.fourth button.read:hover{
+ background-color: #5c5c3d;
+ color: white;
+}
+div.fifth{
+	width: 100%;
+	height: 120px;
+	background-color: white;
+	padding:20px;
+}
+div.fifth h1{
+	font-weight: bolder;
+}
+div.sixth{
+	margin-top: 40px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding:20px ;
+	text-align: center;
+}
+div.sixth h4{
+	font-weight: bolder;
+}
+div.sixth button.add{
+	width: 300px;
+	height: 50px;
+	color: white;
+	background-color: black;
+}
+div.sixth button.buy{
+	width: 300px;
+	height: 50px;
+	color: white;
+	background-color: #5c5c3d;
+}
+button.search{
+	background-color: #5c5c3d;
+	color: white;
+	margin-top: 8px;
+}
+h3.sea{
+	font-weight: bolder;
+	color:#5c5c3d;
+}
+.modal-body input{
+	width: 50%;
+	border: 2px solid #5c5c3d;
+	border-radius: 20px;
+	padding: 5px;
+	transition: 1s;
+}
+.modal-body input:hover{
+	width: 100%;
+}
+
+@media only screen and (max-width: 920px){
+div.one{
+	width: 60px;
+	height: 60px;
+	padding-top: 20px;
+}
+div.one h1{
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+}

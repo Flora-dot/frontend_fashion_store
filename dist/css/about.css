@@ -1,0 +1,187 @@
+body{
+	margin: 0;
+	font-family: courier;
+}
+
+nav{
+	background-color:   #5c5c3d;
+	/*margin-bottom: 100px;*/
+}
+nav .navbar-brand img{
+	width: 100px;
+	height: 70px;
+	/*margin-left: 30px;*/
+}
+nav ul li{
+	padding: 5px;
+}
+nav .navbar-nav li a{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+nav ul li.icon{
+	/*padding-top:25px;*/
+}
+nav div.sub a{
+	font-family: courier;
+	font-size: 20px;
+	color: #5c5c3d;
+}
+.dropdown:hover .sub{
+	display: block;
+}
+/*nav button.search{
+	background-color: #5c5c3d;
+	color: white;
+	border: 1px solid white;
+}*/
+div img.lady{
+	width: 100%;
+}
+
+div.con1{
+	padding-top: 30px;
+	text-align: center;
+
+}
+h1.about1{
+	color: #5c5c3d;
+	padding-top: 5px;
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: courier;
+}
+p.every{
+	font-size: 20px;
+	color: black;
+	padding-bottom: 30px;
+}
+img.girl{
+	width: 100%;
+	transition: width 2s
+}
+img.girl:hover{
+	width: 104%;
+}
+h4.who{
+	margin-top: 50px;
+	color: #5c5c3d;
+	font-family: courier;
+	font-size: 30px;
+	font-weight: bolder;
+}
+button.read{
+	width:90%;
+	/*height: 60px;*/
+	margin-top: 20PX;
+	color: #5c5c3d;
+	font-size:20px ;
+	font-weight: bold;
+	background-color: white;
+	border: 2px solid #5c5c3d ;
+	transition: width 2s
+}
+
+button.read:hover{
+	width: 95%;
+ background-color: #5c5c3d;
+ color: white;
+}
+button.search{
+	background-color: #5c5c3d;
+	color: white;
+	margin-top: 8px;
+}
+h3.sea{
+	font-weight: bolder;
+	color:#5c5c3d;
+}
+.modal-body input{
+	width: 50%;
+	border: 2px solid #5c5c3d;
+	border-radius: 20px;
+	padding: 5px;
+	transition: 1s;
+}
+.modal-body input:hover{
+	width: 100%;
+}
+div.con2{
+	margin-top: 100px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #5c5c3d;
+}
+div.con2 a {
+	color: white;
+	width: 20px;
+	height: 20px;
+}
+.app1{
+	width: 60%;
+	height: 60px;
+	border-radius: 10px;
+}
+.app{
+	width: 60%;
+	height: 60px;
+	border-radius: 10px;
+}
+div ul.menu{
+	list-style-type: none;
+	padding: 10px;
+	margin-left: 20px;
+
+}
+ul.menu li{
+	font-size: 20px;
+}
+p.follow{
+	color: white;
+	font-size:20px;
+}
+div h3.newsletter{
+	margin-top: 10px;
+	font-weight: bolder;
+	color: white;
+}
+div p.get{
+	font-size: 15px;
+	color: white;
+}
+div input.mail{
+}
+div button.sub{
+	width: 100%;
+	height: 40px;
+	color: white;
+	font-weight: bold;
+	background-color:#5c5c3d;
+	border: 1px solid white;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: 1px solid white; 
+  outline: none; 
+  background-color: #5c5c3d; 
+  color: white;
+  cursor: pointer; 
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px; 
+}
+
+@media only screen and (max-width: 600px){
+	div.con2{
+		text-align: center;
+	}
+	ul.social{
+		margin-left: 100px;
+	}
+}
